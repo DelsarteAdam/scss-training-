@@ -11,3 +11,8 @@
     @return $color03;
   }
 }
+
+@function testfunction03($color04) {
+  $colorcomp: transparentize($color, 0.3);
+  @return $colorcomp;
+}

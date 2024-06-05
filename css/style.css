@@ -43,4 +43,8 @@ main a:hover {
   justify-content: center;
   flex-direction: column;
   width: 50%;
+}
+
+p {
+  background-color: rgba(79, 24, 131, 0.7);
 }/*# sourceMappingURL=style.css.map */

@@ -6,6 +6,7 @@ $color: #4f1883;
 $color1: #ffffff;
 $color2: firebrick;
 $color03: brown;
+$color04: black;
 
 @mixin test {
   background-color: aqua;
@@ -66,4 +67,8 @@ main {
 .mainsection {
   @include flex;
   width: 50%;
+}
+
+p {
+  background-color: testfunction03($color04);
 }
