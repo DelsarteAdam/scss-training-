@@ -19,4 +19,16 @@ main .list01 {
 }
 main li {
   border: 2px solid #ffffff;
+}
+main a {
+  text-decoration: none;
+}
+main a:hover {
+  background-color: yellow;
+}
+
+.list02 li {
+  display: flex;
+  margin: 5vh;
+  background-color: #9c54e0;
 }/*# sourceMappingURL=style.css.map */

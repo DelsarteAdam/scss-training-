@@ -1,0 +1,4 @@
+@function testfunction($color) {
+  $colorcomp: lighten($color, 30%);
+  @return $colorcomp;
+}
