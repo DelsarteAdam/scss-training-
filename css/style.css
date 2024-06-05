@@ -9,4 +9,14 @@ section {
 section h1 {
   font-size: 4rem;
   color: #ffffff;
+}
+
+main ul {
+  background-color: firebrick;
+}
+main .list01 {
+  background-color: green;
+}
+main li {
+  border: 2px solid #ffffff;
 }/*# sourceMappingURL=style.css.map */
