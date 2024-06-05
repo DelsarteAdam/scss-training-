@@ -24,7 +24,7 @@ main a {
   text-decoration: none;
 }
 main a:hover {
-  background-color: yellow;
+  background-color: blue;
 }
 
 .list02 li {

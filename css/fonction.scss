@@ -2,3 +2,12 @@
   $colorcomp: lighten($color, 30%);
   @return $colorcomp;
 }
+
+@function testfunction02($color03) {
+  @if ($color03 == #ffff00) {
+    $colorcomp: complement($color03);
+    @return $colorcomp;
+  } @else {
+    @return $color03;
+  }
+}

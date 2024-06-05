@@ -5,6 +5,7 @@
 $color: #4f1883;
 $color1: #ffffff;
 $color2: firebrick;
+$color03: yellow;
 
 @mixin test {
   background-color: aqua;
@@ -43,7 +44,7 @@ main {
   a {
     text-decoration: none;
     &:hover {
-      background-color: yellow;
+      background-color: testfunction02($color03);
     }
   }
 }
