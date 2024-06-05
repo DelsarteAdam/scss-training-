@@ -1,0 +1,20 @@
+@import url(reset.css);
+
+$color1: #ffffff;
+
+@mixin test {
+  background-color: aqua;
+}
+
+body {
+  @include test();
+}
+
+section {
+  background-color: black;
+
+  h1 {
+    font-size: 4rem;
+    color: $color1;
+  }
+}
