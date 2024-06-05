@@ -5,7 +5,7 @@
 $color: #4f1883;
 $color1: #ffffff;
 $color2: firebrick;
-$color03: yellow;
+$color03: brown;
 
 @mixin test {
   background-color: aqua;
@@ -15,8 +15,16 @@ $color03: yellow;
   border: 2px solid $color1;
 }
 
+@mixin flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
 body {
   @include test();
+  @include flex;
 }
 
 section {
@@ -53,4 +61,9 @@ main {
   display: flex;
   margin: 5vh;
   background-color: testfunction($color);
+}
+
+.mainsection {
+  @include flex;
+  width: 50%;
 }

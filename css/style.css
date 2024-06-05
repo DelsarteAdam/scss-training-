@@ -1,6 +1,10 @@
 @import url(reset.css);
 body {
   background-color: aqua;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 section {
@@ -24,11 +28,19 @@ main a {
   text-decoration: none;
 }
 main a:hover {
-  background-color: blue;
+  background-color: brown;
 }
 
 .list02 li {
   display: flex;
   margin: 5vh;
   background-color: #9c54e0;
+}
+
+.mainsection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 50%;
 }/*# sourceMappingURL=style.css.map */
